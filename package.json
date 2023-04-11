@@ -1,15 +1,23 @@
 {
   "name": "atom-material-syntax-dark",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": "Alex313031 <Alex313031@gmail.com>",
+  "scripts": {
+    "test": "atom --test spec",
+    "clean": "rm -r -f -v node_modules",
+    "install": "NODE_ENV=development",
+    "build": "NODE_ENV=production npm install"
+  },
   "description": "A darker syntax theme for Atom that uses Google's Material Design color palette",
   "keywords": [
     "syntax",
     "theme",
+    "dark",
     "material",
     "material design"
   ],
-  "repository": "https://github.com/silvestreh/atom-material-syntax-dark",
+  "repository": "https://github.com/Alex313031/atom-material-syntax-dark",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
