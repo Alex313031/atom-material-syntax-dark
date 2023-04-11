@@ -9,7 +9,7 @@
     "install": "NODE_ENV=development",
     "build": "NODE_ENV=production npm install"
   },
-  "description": "A darker syntax theme for Atom that uses Google's Material Design color palette",
+  "description": "A darker syntax theme for Atom-ng that uses Google's Material Design color palette",
   "keywords": [
     "syntax",
     "theme",
