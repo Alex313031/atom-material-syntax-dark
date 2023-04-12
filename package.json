@@ -5,7 +5,7 @@
   "author": "Alex313031 <Alex313031@gmail.com>",
   "scripts": {
     "test": "atom --test spec",
-    "clean": "shx rm -r -f -v node_modules",
+    "clean": "shx rm -rf -v node_modules",
     "build": "npm install && cross-env NODE_ENV=production npm install"
   },
   "devDependencies": {
